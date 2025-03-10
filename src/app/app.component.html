@@ -1,0 +1,11 @@
+<h1>Reactive</h1>
+<span>{{ testFc.value }}</span>
+<br />
+<app-custom-input [formControl]="testFc"></app-custom-input>
+
+<br />
+
+<h1>Template driven</h1>
+<span>{{ templateValue() }}</span>
+<br />
+<app-custom-input [(ngModel)]="templateValue"></app-custom-input>
